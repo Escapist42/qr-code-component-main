@@ -1,0 +1,56 @@
+:root {
+    --color-white: hsl(0, 0%, 100%); 
+    --color-light-gray: hsl(212, 45%, 89%); 
+    --color-grayish-blue: hsl(220, 15%, 55%); 
+    --color-dark-blue: hsl(218, 44%, 22%); 
+}
+body {
+    background-color: var(--color-light-gray);
+    width: 1440px; 
+    margin: auto;
+    font-size: 15px;
+    font-family: outfit;
+}
+.karta {
+    width: 290px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-white);
+    border-radius: 15px;
+}
+.qrkod {
+    width: 260px;
+    height: 260px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.nadpis {
+    color: var(--color-dark-blue);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+.popis {
+    color: var(--color-grayish-blue);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+}
+.paticka {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    font-size: 11px;
+}
+.paticka a {
+    color: hsl(228, 45%, 44%); 
+}
