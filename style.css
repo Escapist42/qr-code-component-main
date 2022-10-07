@@ -8,7 +8,7 @@ body {
   background-color: var(--color-light-gray);
   width: 1440px;
   margin: auto;
-  font-size: 15px;
+  font-size: 1rem;
   font-family: outfit;
 }
 .obsah {
@@ -40,7 +40,7 @@ body {
   font-weight: 700;
 }
 .uvnitr h1 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--color-dark-blue);
 }
 .uvnitr p {
@@ -53,7 +53,7 @@ body {
   left: 50%;
   transform: translate(-50%);
   bottom: 0;
-  font-size: 11px;
+  font-size: 0.8rem;
 }
 .paticka a {
   color: hsl(228, 45%, 44%);
