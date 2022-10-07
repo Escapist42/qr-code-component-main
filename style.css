@@ -1,56 +1,60 @@
 :root {
-    --color-white: hsl(0, 0%, 100%); 
-    --color-light-gray: hsl(212, 45%, 89%); 
-    --color-grayish-blue: hsl(220, 15%, 55%); 
-    --color-dark-blue: hsl(218, 44%, 22%); 
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
 }
 body {
-    background-color: var(--color-light-gray);
-    width: 1440px; 
-    margin: auto;
-    font-size: 15px;
-    font-family: outfit;
+  background-color: var(--color-light-gray);
+  width: 1440px;
+  margin: auto;
+  font-size: 15px;
+  font-family: outfit;
+}
+.obsah {
+  margin: 20px;
 }
 .karta {
-    width: 290px;
-    height: 450px;
-    top: 50%;
-    left: 50%;
-    margin: 0;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    background-color: var(--color-white);
-    border-radius: 15px;
+  width: 320px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-white);
+  border-radius: 15px;
 }
 .qrkod {
-    width: 260px;
-    height: 260px;
-    margin-left: 50%;
-    transform: translate(-50%);
-    border-radius: 10px;
-    margin-top: 15px;
+  width: 290px;
+  height: 290px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+  margin-top: 15px;
 }
-.nadpis {
-    color: var(--color-dark-blue);
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 700;
+.uvnitr {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
 }
-.popis {
-    color: var(--color-grayish-blue);
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 400;
+.uvnitr h1 {
+  font-size: 1.3rem;
+  color: var(--color-dark-blue);
+}
+.uvnitr p {
+  font-size: 1rem;
+  color: var(--color-grayish-blue);
+  font-weight: 400;
 }
 .paticka {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 0;
-    font-size: 11px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  font-size: 11px;
 }
 .paticka a {
-    color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
