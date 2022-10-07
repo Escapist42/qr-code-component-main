@@ -15,8 +15,8 @@ body {
   margin: 20px;
 }
 .karta {
-  width: 320px;
-  height: 500px;
+  width: 350px;
+  height: 540px;
   top: 50%;
   left: 50%;
   margin: 0;
@@ -26,8 +26,8 @@ body {
   border-radius: 15px;
 }
 .qrkod {
-  width: 290px;
-  height: 290px;
+  width: 320px;
+  height: 320px;
   margin-left: 50%;
   transform: translate(-50%);
   border-radius: 10px;
@@ -35,16 +35,16 @@ body {
 }
 .uvnitr {
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-weight: 700;
 }
 .uvnitr h1 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: var(--color-dark-blue);
 }
 .uvnitr p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--color-grayish-blue);
   font-weight: 400;
 }
